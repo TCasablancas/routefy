@@ -1,10 +1,10 @@
 import React from 'react'
-import { Container } from '../../styles/container';
+import { TopView } from '../../styles/container';
 
 export default function Header() {
     return (
-        <Container>
+        <TopView>
             <h1>Routefy</h1>
-        </Container>
+        </TopView>
     )
 }
