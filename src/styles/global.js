@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap');
     * {
         margin: 0;
         padding: 0;
@@ -12,7 +11,7 @@ export default createGlobalStyle`
         height: 100%;
     }
     body {
-        font: 14px 'Nunito', sans-serif;
+        font: 14px 'Fira Sans', sans-serif;
         background: #f5f5f5;
         color: #807380;
         -webkit-font-smoothing: antialiased !important;
@@ -21,6 +20,6 @@ export default createGlobalStyle`
         list-style: none;
     }
     #map {
-      
+
     }
 `;

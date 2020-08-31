@@ -7,7 +7,7 @@ export const InputElement = styled.input`
     width: 100%;
     text-aling: center;
     background: #f2f2f2;
-    font: 12px 'Nunito-medium', sans-serif;
+    font: 12px 'Fira Sans', sans-serif;
     font-weight: black;
 `;
 
@@ -16,6 +16,7 @@ export const ButtonElement = styled.button`
     padding: 10px;
     font-size: 12px;
     border: 0;
-    font: 12px 'Nunito-black', sans-serif;
+    font: 12px 'Fira Sans', sans-serif;
     margin: 10px 0;
+    font-weight: 600
 `;

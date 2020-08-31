@@ -16,6 +16,7 @@ export default class Button extends Component {
         <ButtonElement style={
           type == "cadastrar" ? {background: '#31DE51', color: '#39641E'} :
           type == "limpar" ? {background: '#FA2445', color: '#fff'} :
+          type == "buscar" ? {background: '#3D59F2', color: '#fff'} :
           type == "desabilitado" ? {background: '#D9D9D9', color: '#828282'} : null
         }> {title}
         </ButtonElement>
