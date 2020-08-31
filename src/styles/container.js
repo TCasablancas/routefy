@@ -11,10 +11,9 @@ export const TopView = styled.div`
 `;
 
 export const Board = styled.div`
-    height: 500px;
+    height: 91.4vh;
     display: flex;
-    margin: 20px auto;
-    width: 1000px;
+    background: #3f3f3f;
 `;
 
 export const ViewContainer = styled.div`
