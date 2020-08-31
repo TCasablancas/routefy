@@ -11,11 +11,17 @@ export const TopView = styled.div`
 `;
 
 export const Board = styled.div`
-    height: 91.4vh;
+    height: calc(100% - 60px);
     display: flex;
     background: #3f3f3f;
 `;
 
 export const ViewContainer = styled.div`
     margin: 10px;
+`;
+
+export const MapContainer = styled.div`
+  width: 100%;
+  height: 91.4vh;
+  display: flex;
 `;

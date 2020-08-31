@@ -1,7 +1,7 @@
 import React from 'react';
 import GlobalStyle from './styles/global';
 import Header from './components/header';
-import { Board } from './styles/container';
+import { Board, MapContainer } from './styles/container';
 import Mapview from './components/map';
 import Delivery from './components/client';
 import List from './components/list';
@@ -14,7 +14,10 @@ function App() {
       <Header />
       <Board>
         <Delivery />
-        <Mapview />
+        <MapContainer>
+          <Mapview />
+          <List />
+        </MapContainer>
       </Board>
     </>
   );
