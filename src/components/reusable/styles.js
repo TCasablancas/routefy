@@ -20,3 +20,14 @@ export const ButtonElement = styled.button`
     margin: 10px 0;
     font-weight: 600
 `;
+
+export const MessageBottom = styled.div`
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 266px);
+  padding: 10px;
+  background: #FA2445;
+  z-index: 9999;
+  color: #fff;
+  font-weight: 600;
+`;

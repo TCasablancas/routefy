@@ -15,10 +15,24 @@ export const Label = styled.p`
 
 export const UserView = styled.li`
   background: #f9f9f9;
-  padding: 10px;
   margin-bottom: 2px;
+`;
+
+export const UserContainer = styled.div`
+  padding: 10px;
 `;
 
 export const UserName = styled.h3`
   padding: 5px;
+`;
+
+export const ButtonsContainer = styled.ul`
+  width: 100%;
+  display: flex;
+`;
+
+export const ViewWeight = styled.div`
+  height: 30px;
+  width: 200px;
+  background: red;
 `;

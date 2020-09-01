@@ -3,6 +3,7 @@ import GlobalStyle from './styles/global';
 import Header from './components/header';
 import { Board, MapContainer } from './styles/container';
 import Mapview, { userLocationData } from './components/map';
+import Message from './components/reusable/message';
 import Delivery from './components/client';
 import List from './components/list';
 
@@ -16,6 +17,7 @@ class App extends Component {
         <Board>
           <Delivery />
           <MapContainer>
+            <Message message="O usuário foi cadastrado com sucesso!" show="false"/>
             <Mapview />
             <List
               clientName={ userLocationData.name }

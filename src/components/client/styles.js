@@ -14,3 +14,16 @@ export const ButtonsContainer = styled.div`
   width: calc(100% - 40px);
   height: auto;
 `;
+
+export const UserSearch = styled.div`
+  margin-top: 10px;
+  width: 100%;
+  background: #f3f3f3;
+  min-height: 240px;
+`;
+
+export const UserLabel = styled.li`
+  width: 100%;
+  padding: 10px;
+  list-style: none;
+`;

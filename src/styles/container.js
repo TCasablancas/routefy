@@ -24,4 +24,6 @@ export const MapContainer = styled.div`
   width: 100%;
   height: 91.4vh;
   display: flex;
+  overflow: hidden;
+  position: relative;
 `;
